@@ -5,6 +5,7 @@ import NavBar from '../components/NavBar';
 import image from '../resources/carajoeimage.jpg'; // Import your saved image
 import backgroundImage from '../resources/marblebackground.png'; // Import your saved image
 import '../App.css';
+import { AddToCalendarButton } from 'add-to-calendar-button-react';
 
 const link = document.createElement('link');
 link.rel = 'stylesheet';
@@ -55,6 +56,7 @@ const Home = () => {
         >
           Cara and Joseph
         </h1>
+
         <h2
   style={{
     fontSize: '50px',
@@ -123,7 +125,7 @@ const Home = () => {
   </div>
 
   <button
-    onClick={() => alert('Add to Calendar functionality coming soon!')}
+    
     style={{
       background: '#006A4E',
       color: 'white',
@@ -135,7 +137,13 @@ const Home = () => {
       marginTop: '10px',
     }}
   >
-    Add to Calendar
+            <AddToCalendarButton
+  name="Cara and Joe Wedding"
+  startDate="2025-07-25"
+  options={['Apple','Google','Yahoo','iCal']}
+  timeZone="Europe/London"
+></AddToCalendarButton>
+    
   </button>
 </div>
 
