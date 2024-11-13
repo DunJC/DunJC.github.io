@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "./static/css/main.fd6f9300.css",
-    "main.js": "./static/js/main.2ed0060e.js",
+    "main.js": "./static/js/main.4c1671b6.js",
     "static/js/453.8e17da98.chunk.js": "./static/js/453.8e17da98.chunk.js",
     "static/media/carajoeimage.jpg": "./static/media/carajoeimage.999563ae3ee05db3e3a1.jpg",
     "static/media/marblebackground.png": "./static/media/marblebackground.7469df631b935320f38d.png",
     "static/media/JCLogoMain.png": "./static/media/JCLogoMain.605a83159b6986a6224a.png",
     "index.html": "./index.html",
     "main.fd6f9300.css.map": "./static/css/main.fd6f9300.css.map",
-    "main.2ed0060e.js.map": "./static/js/main.2ed0060e.js.map",
+    "main.4c1671b6.js.map": "./static/js/main.4c1671b6.js.map",
     "453.8e17da98.chunk.js.map": "./static/js/453.8e17da98.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd6f9300.css",
-    "static/js/main.2ed0060e.js"
+    "static/js/main.4c1671b6.js"
   ]
 }
