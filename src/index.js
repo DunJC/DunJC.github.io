@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import 'https://cdn.jsdelivr.net/npm/add-to-calendar-button/assets/css/atcb.min.css';
+
 
 
 export default function App() {
@@ -15,9 +15,6 @@ export default function App() {
       <Routes>
        
       <Route path="/" element={<Home />} ></Route>
-
-
-   
       </Routes>
     </BrowserRouter>
   );
