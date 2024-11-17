@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.43909beb.css",
+    "main.css": "./static/css/main.bfa9fc89.css",
     "main.js": "./static/js/main.9e4f359f.js",
     "static/js/453.8e17da98.chunk.js": "./static/js/453.8e17da98.chunk.js",
     "static/media/carajoeimage.jpg": "./static/media/carajoeimage.999563ae3ee05db3e3a1.jpg",
@@ -9,12 +9,12 @@
     "static/media/bannerImage_sml.png": "./static/media/bannerImage_sml.ebb25de7824c9cb7df31.png",
     "static/media/JCLogoMain.png": "./static/media/JCLogoMain.605a83159b6986a6224a.png",
     "index.html": "./index.html",
-    "main.43909beb.css.map": "./static/css/main.43909beb.css.map",
+    "main.bfa9fc89.css.map": "./static/css/main.bfa9fc89.css.map",
     "main.9e4f359f.js.map": "./static/js/main.9e4f359f.js.map",
     "453.8e17da98.chunk.js.map": "./static/js/453.8e17da98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43909beb.css",
+    "static/css/main.bfa9fc89.css",
     "static/js/main.9e4f359f.js"
   ]
 }
