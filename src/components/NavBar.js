@@ -15,7 +15,7 @@ const NavBar = () => {
           <a href="/">Home</a>
         </li>
         <li>
-        <a href="accommodation"> Accommodation</a>
+        <a href="#/accommodation"> Accommodation</a>
         </li>
       </ul>
       <a href="https://forms.gle/4LLPz3LWeJpnRqkN7" className="navbar-button">Share Your Intent</a>
