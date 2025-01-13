@@ -89,6 +89,39 @@ const Main = () => {
   </p>
   <p
     style={{
+      fontSize: '30px',
+      fontFamily: `'Great Vibes', cursive`,
+      margin: '0',
+      color: '#D4AF37', // Gold color
+      fontWeight: 'bold',
+    }}
+  >
+    Ceremony
+  </p>
+  <p
+    style={{
+      fontSize: '24px',
+      fontFamily: `'Playfair Display', serif`,
+      margin: '10px 0 20px',
+      fontWeight: '500',
+      color: 'black',
+    }}
+  >
+    St Hildas Roman Catholic Church, 35 Turton Rd, Tottington, Bury BL8 4AW <br /> United Kingdom
+  </p>
+  <p
+    style={{
+      fontSize: '30px',
+      fontFamily: `'Great Vibes', cursive`,
+      margin: '0',
+      color: '#D4AF37', // Gold color
+      fontWeight: 'bold',
+    }}
+  >
+    Reception and Evening
+  </p>
+  <p
+    style={{
       fontSize: '24px',
       fontFamily: `'Playfair Display', serif`,
       margin: '10px 0 20px',

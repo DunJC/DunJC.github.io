@@ -9,6 +9,11 @@ import SaveTheDate from "./pages/SaveTheDate";
 import Main from "./pages/Main";
 import Accommodation from "./pages/Accommodation";
 import ShareYourIntent from "./pages/ShareYourIntent";
+import Schedule from "./pages/Schedule";
+import Info from "./pages/Information";
+import Contact from "./pages/Contact";
+
+
 
 export default function App() {
   return (
@@ -19,6 +24,10 @@ export default function App() {
         <Route path="main" element={<Home />} />
         <Route path="/accommodation" element={<Accommodation />} />
         <Route path="shareyourintent" element={<ShareYourIntent />} />
+        <Route path="info" element={<Info/>} />
+        <Route path="contact" element={<Contact/>} />
+        <Route path="schedule" element={<Schedule/>} />
+      
       </Routes>
     </HashRouter>
   );
