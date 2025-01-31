@@ -74,10 +74,10 @@ const GeneralInformation = () => {
             }}
           >
             <li style={{ marginBottom: '10px' }}>
-              <strong>Ceremony:</strong> 12:00 PM at St Hildas Roman Catholic Church, Tottington, UK
+              <strong>Ceremony:</strong> Morning at St Hilda's Roman Catholic Church, Tottington, UK
             </li>
             <li style={{ marginBottom: '10px' }}>
-              <strong>Reception:</strong> 3:00 PM at Astley Bank Hotel, Darwen, UK
+              <strong>Reception:</strong> 1:30 PM at Astley Bank Hotel, Darwen, UK
             </li>
             <li>
               <strong>Evening Celebration:</strong> 6:00 PM with live music and dancing at Astley Bank Hotel, Darwen, UK
@@ -108,8 +108,86 @@ const GeneralInformation = () => {
             Dress Code
           </h2>
           <p style={{ fontSize: '18px', color: '#2F4F4F', marginBottom: '15px' }}>
-          The dress code for the day is <strong>smart casual</strong>. Please feel free to wear whatever you feel comfortable in.</p>
+          TBC</p>
         </div>
+
+        {/* Kids Section */}
+                <div
+          style={{
+            maxWidth: '600px',
+            margin: '0 auto 40px',
+            padding: '20px',
+            background: '#ffffff',
+            borderRadius: '10px',
+            boxShadow: '0 4px 15px rgba(0, 0, 0, 0.2)',
+          }}
+        >
+          <h2
+            style={{
+              fontSize: '24px',
+              fontFamily: `'Playfair Display', serif`,
+              marginBottom: '15px',
+              color: '#2F4F4F',
+            }}
+          >
+            Kids 
+          </h2>
+          <p style={{ fontSize: '18px', color: '#2F4F4F', marginBottom: '15px' }}>
+  In order to maintain an intimate atmosphere, we kindly request that the wedding be adults-only. However, if you have special circumstances, please feel free to reach out. For our beloved guests travelling from overseas, we've made an exception.
+</p>
+</div>
+{/* Dress Code Section */}
+<div
+          style={{
+            maxWidth: '600px',
+            margin: '0 auto 40px',
+            padding: '20px',
+            background: '#ffffff',
+            borderRadius: '10px',
+            boxShadow: '0 4px 15px rgba(0, 0, 0, 0.2)',
+          }}
+        >
+          <h2
+            style={{
+              fontSize: '24px',
+              fontFamily: `'Playfair Display', serif`,
+              marginBottom: '15px',
+              color: '#2F4F4F',
+            }}
+          >
+            Transport and Parking
+          </h2>
+          <p style={{ fontSize: '18px', color: '#2F4F4F', marginBottom: '15px' }}>
+          TBC</p>
+        </div>
+
+        {/* Gifts Section */}
+<div
+  style={{
+    maxWidth: '600px',
+    margin: '0 auto 40px',
+    padding: '20px',
+    background: '#ffffff',
+    borderRadius: '10px',
+    boxShadow: '0 4px 15px rgba(0, 0, 0, 0.2)',
+  }}
+>
+  <h2
+    style={{
+      fontSize: '24px',
+      fontFamily: `'Playfair Display', serif`,
+      marginBottom: '15px',
+      color: '#2F4F4F',
+    }}
+  >
+    Your Presence Is Our Present
+  </h2>
+  <p style={{ fontSize: '18px', color: '#2F4F4F', marginBottom: '15px' }}>
+    We feel so fortunate to have you in our lives, and your presence at our celebration is the greatest gift we could ask for.  
+    <br /><br />
+    If you would still like to mark the occasion with a gesture, a small contribution to our honeymoon or a charity close to our hearts would mean the world to us. But truly, sharing this special day with you is all we need.
+  </p>
+</div>
 
         {/* Contact Information Section */}
         <div

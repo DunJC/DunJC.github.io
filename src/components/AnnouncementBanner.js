@@ -4,7 +4,6 @@ const AnnouncementBanner = () => {
   const announcements = [
     'Welcome to Cara & Joe’s Wedding!',
     'Accommodation details available!',
-    'RSVP by sharing your intent!',
     'Stay tuned for more updates!',
   ];
 

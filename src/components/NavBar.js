@@ -27,7 +27,7 @@ const NavBar = () => {
             </li>
 
       </ul>
-      <a href="https://forms.gle/4LLPz3LWeJpnRqkN7" className="navbar-button">Share Your Intent</a>
+      
     </nav>
   );
 };

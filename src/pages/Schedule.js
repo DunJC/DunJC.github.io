@@ -6,14 +6,14 @@ import '../App.css';
 const Schedules = () => {
   const events = [
     {
-      date: 'TBC (Before July 20th)',
+      date: 'July 12th',
       side: 'left',
       events: [
         {
-          name: 'Our Arrival in the UK',
-          time: 'TBC',
+          name: 'Cara, Joseph and Robin arrive in the UK',
+          time: '07:15 PM',
           location: 'UK',
-          comment: 'We will arrive in the UK a few days before the wedding. Exact date to be confirmed.',
+          comment: 'We will arrive in the UK a few days before the wedding and will be spending some time in derby before heading up to Bury/Manchester for the wedding.',
         },
       ],
     },
@@ -35,19 +35,19 @@ const Schedules = () => {
       events: [
         {
           name: 'Church Ceremony',
-          time: '12:00 PM',
+          time: 'Morning (Time TBC)',
           location: 'St Hildas Roman Catholic Church, Tottington, UK',
           comment: 'The ceremony to celebrate our union.',
         },
         {
           name: 'Reception',
-          time: '3:00 PM',
+          time: '01:30 PM',
           location: 'Astley Bank Hotel, Darwen, UK',
           comment: 'A joyful reception with food, drinks, and entertainment.',
         },
         {
           name: 'Evening Guests Arrive',
-          time: '6:00 PM',
+          time: '06:00 PM',
           location: 'Astley Bank Hotel, Darwen, UK',
           comment: 'Evening guests join the celebration.',
         },

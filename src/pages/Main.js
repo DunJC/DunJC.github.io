@@ -29,7 +29,7 @@ const Main = () => {
 
 
           
-          <a href='https://forms.gle/4LLPz3LWeJpnRqkN7' target="_blank" rel="noopener noreferrer" 
+       {/*   <a href='https://forms.gle/4LLPz3LWeJpnRqkN7' target="_blank" rel="noopener noreferrer" 
           style={{
             padding: '8px 16px',
             textDecoration: 'none',
@@ -45,20 +45,8 @@ const Main = () => {
           }}
           >
           Share Your Intent
-        </a>
-        <p
-          style={{
-            fontSize: '18px',
-            textAlign: 'center',
-            paddingTop: '20px',
-            margin: '0 0 15px',
-            color: 'black',
-            fontFamily: `'Playfair Display', serif`,
-          }}
-        >
-          We'd love to know if you plan to attend, even if you're not sure yet. <br />
-          Please share your intent so we can better prepare for our special day.
-        </p>
+        </a>*/}
+
 
         {/* Main Content */}
         <div
@@ -107,7 +95,7 @@ const Main = () => {
       color: 'black',
     }}
   >
-    St Hildas Roman Catholic Church, 35 Turton Rd, Tottington, Bury BL8 4AW <br /> United Kingdom
+    St Hilda's Roman Catholic Church, 35 Turton Rd, Tottington, Bury BL8 4AW <br /> United Kingdom
   </p>
   <p
     style={{
