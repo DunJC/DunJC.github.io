@@ -10,11 +10,7 @@ const Accommodation = () => {
       <AnnouncementBanner />
       <NavBar />
       <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-        <img
-          src={bannerImage}
-          alt="Banner"
-          style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
-        />
+
       </div>
 
       {/* Main Content Section */}
@@ -33,7 +29,7 @@ const Accommodation = () => {
             fontFamily: `'Playfair Display', serif`,
             fontSize: '36px',
             margin: '10px 0',
-            color: '#D4AF37', // Gold heading
+            color: '#5294D3', // Gold heading
           }}
         >
           Accommodation

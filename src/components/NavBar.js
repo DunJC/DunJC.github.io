@@ -10,24 +10,29 @@ const NavBar = () => {
         <span>C & J | Wedding</span>
       </div>
       <ul className="navbar-links">
-        <li>
-          <a href="/">Home</a>
-        </li>
+
         <li>
           <a href="#/schedule"> Schedule</a>
+        </li>
+        <li>
+          <a href="#/theday"> The Wedding Day</a>
         </li>
         <li>
           <a href="#/accommodation"> Accommodation</a>
         </li>
         <li>
-              <a href="#/info">General Information</a>
-            </li>
-            <li>
-              <a href="#/contact">Contact</a>
-            </li>
+          <a href="#/info">General Information</a>
+        </li>
+        <li>
+          <a href="#/menu">Menu</a>
+        </li>
+        <li>
+          <a href="#/contact">Contact</a>
+        </li>
+
 
       </ul>
-      
+
     </nav>
   );
 };

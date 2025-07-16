@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import React Router Link
 import NavBar from '../components/NavBar';
-import bannerImage from '../resources/bannerImage_sml.png'; // Import the banner image
+import bannerImage from '../resources/bannerImage_sml.png';
 import '../App.css';
 
 const Schedules = () => {
@@ -13,7 +14,8 @@ const Schedules = () => {
           name: 'Cara, Joseph and Robin arrive in the UK',
           time: '07:15 PM',
           location: 'UK',
-          comment: 'We will arrive in the UK a few days before the wedding and will be spending some time in derby before heading up to Bury/Manchester for the wedding.',
+          comment:
+            'We will arrive in the UK a few days before the wedding and will be spending some time in Derby before heading up to Bury/Manchester for the wedding.',
         },
       ],
     },
@@ -23,9 +25,10 @@ const Schedules = () => {
       events: [
         {
           name: 'Pre-Wedding Catchup',
-          time: 'Evening',
-          location: 'Bury',
-          comment: 'An informal gathering to catch up with friends and family before the big day.',
+          time: '18:00 or 19:00',
+          location: 'Astley Bank then to Hare and Hounds',
+          comment:
+            'For guests staying at Astley Bank, Cara will be around the bar at 18:00 and then head to the Hare and Hounds (probably) for approximately 19:00.',
         },
       ],
     },
@@ -35,7 +38,7 @@ const Schedules = () => {
       events: [
         {
           name: 'Church Ceremony',
-          time: 'Morning (Time TBC)',
+          time: '12:00 PM Service Starts - Earlier arrival recommended',
           location: 'St Hildas Roman Catholic Church, Tottington, UK',
           comment: 'The ceremony to celebrate our union.',
         },
@@ -58,13 +61,7 @@ const Schedules = () => {
   return (
     <div style={{ background: '#ededed', minHeight: '100vh', color: '#2F4F4F' }}>
       <NavBar />
-      <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-        <img
-          src={bannerImage}
-          alt="Banner"
-          style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
-        />
-      </div>
+
 
       {/* Timeline Section */}
       <div
@@ -82,11 +79,24 @@ const Schedules = () => {
             fontFamily: `'Playfair Display', serif`,
             fontSize: '36px',
             margin: '10px 0',
-            color: '#D4AF37', // Gold heading
+            color: '#5294D3', // Gold heading
           }}
         >
           Schedule
         </h1>
+
+        {/* Add link to "The Day" page */}
+        <p style={{ fontSize: '18px', marginBottom: '20px' }}>
+          For the full wedding day details, visit{' '}
+          <Link
+            to="/theday#schedule"
+            style={{ color: '#5294D3', fontWeight: 'bold', textDecoration: 'underline' }}
+          >
+            The Day
+          </Link>
+          .
+        </p>
+
         <div
           style={{
             position: 'relative',
@@ -102,95 +112,90 @@ const Schedules = () => {
               top: '0',
               bottom: '0',
               width: '4px',
-              background: 'linear-gradient(to bottom, #D4AF37, #FFD700)',
+              background: 'linear-gradient(to bottom, #5294D3, #5294D3)',
               transform: 'translateX(-50%)',
               zIndex: 1,
             }}
           ></div>
 
-
-
-{events.map((day, index) => (
-  <div
-    key={index}
-    style={{
-      display: 'flex',
-      justifyContent: day.side === 'right' ? 'flex-end' : 'flex-start',
-      marginBottom: '40px',
-      position: 'relative',
-      alignItems: 'center',
-      margin: '30px 0',
-      width: '100%',
-    }}
-  >
-    {/* Connector Point */}
-    <div
-      style={{
-        width: '20px',
-        height: '20px',
-        borderRadius: '50%',
-        backgroundColor: '#D4AF37',
-        position: 'absolute',
-        left: '50%',
-        transform: 'translate(-50%)',
-        zIndex: 2,
-        top: '5px',
-      }}
-    ></div>
-    {/* Event Box */}
-    <div
-      style={{
-        maxWidth: '45%',
-        padding: '15px',
-        background: '#ffffff',
-        borderRadius: '10px',
-        boxShadow: '0 4px 15px rgba(0, 0, 0, 0.2)',
-        position: 'relative',
-        marginLeft: day.side === 'right' ? 'calc(50% + 5px)' : 'auto',
-        marginRight: day.side === 'right' ? 'auto' : 'calc(50% + 5px)',
-        textAlign: day.side === 'right' ? 'left' : 'right',
-      }}
-    >
-      <h2
-        style={{
-          fontSize: '20px',
-          fontFamily: `'Playfair Display', serif`,
-          margin: '0 0 10px',
-          color: '#2F4F4F',
-        }}
-      >
-        {day.date}
-      </h2>
-      {day.events.map((event, i) => (
-        <div key={i} style={{ marginBottom: '15px' }}>
-          <h3
-            style={{
-              fontSize: '18px',
-              fontFamily: `'Playfair Display', serif`,
-              margin: '5px 0',
-              color: '#2F4F4F',
-            }}
-          >
-            {event.name}
-          </h3>
-          <p style={{ margin: '5px 0', fontSize: '16px' }}>
-            <strong>Time:</strong> {event.time}
-          </p>
-          <p style={{ margin: '5px 0', fontSize: '16px' }}>
-            <strong>Location:</strong> {event.location}
-          </p>
-          <p style={{ margin: '5px 0', fontSize: '16px' }}>{event.comment}</p>
-        </div>
-      ))}
-    </div>
-  </div>
-))}
-
+          {events.map((day, index) => (
+            <div
+              key={index}
+              style={{
+                display: 'flex',
+                justifyContent: day.side === 'right' ? 'flex-end' : 'flex-start',
+                marginBottom: '40px',
+                position: 'relative',
+                alignItems: 'center',
+                margin: '30px 0',
+                width: '100%',
+              }}
+            >
+              {/* Connector Point */}
+              <div
+                style={{
+                  width: '20px',
+                  height: '20px',
+                  borderRadius: '50%',
+                  backgroundColor: '#5294D3',
+                  position: 'absolute',
+                  left: '50%',
+                  transform: 'translate(-50%)',
+                  zIndex: 2,
+                  top: '5px',
+                }}
+              ></div>
+              {/* Event Box */}
+              <div
+                style={{
+                  maxWidth: '45%',
+                  padding: '15px',
+                  background: '#ffffff',
+                  borderRadius: '10px',
+                  boxShadow: '0 4px 15px rgba(0, 0, 0, 0.2)',
+                  position: 'relative',
+                  marginLeft: day.side === 'right' ? 'calc(50% + 5px)' : 'auto',
+                  marginRight: day.side === 'right' ? 'auto' : 'calc(50% + 5px)',
+                  textAlign: day.side === 'right' ? 'left' : 'right',
+                }}
+              >
+                <h2
+                  style={{
+                    fontSize: '20px',
+                    fontFamily: `'Playfair Display', serif`,
+                    margin: '0 0 10px',
+                    color: '#2F4F4F',
+                  }}
+                >
+                  {day.date}
+                </h2>
+                {day.events.map((event, i) => (
+                  <div key={i} style={{ marginBottom: '15px' }}>
+                    <h3
+                      style={{
+                        fontSize: '18px',
+                        fontFamily: `'Playfair Display', serif`,
+                        margin: '5px 0',
+                        color: '#2F4F4F',
+                      }}
+                    >
+                      {event.name}
+                    </h3>
+                    <p style={{ margin: '5px 0', fontSize: '16px' }}>
+                      <strong>Time:</strong> {event.time}
+                    </p>
+                    <p style={{ margin: '5px 0', fontSize: '16px' }}>
+                      <strong>Location:</strong> {event.location}
+                    </p>
+                    <p style={{ margin: '5px 0', fontSize: '16px' }}>{event.comment}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
-
-
   );
 };
 

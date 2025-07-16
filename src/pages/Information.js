@@ -7,14 +7,10 @@ import '../App.css';
 const GeneralInformation = () => {
   return (
     <div style={{ background: '#ededed', minHeight: '100vh', color: '#2F4F4F' }}>
-      <AnnouncementBanner />
+    
       <NavBar />
       <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-        <img
-          src={bannerImage}
-          alt="Banner"
-          style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
-        />
+
       </div>
 
       {/* Main Content Section */}
@@ -33,7 +29,7 @@ const GeneralInformation = () => {
             fontFamily: `'Playfair Display', serif`,
             fontSize: '36px',
             margin: '10px 0',
-            color: '#D4AF37', // Gold heading
+            color: '#5294D3', // Gold heading
           }}
         >
           General Information
@@ -74,7 +70,7 @@ const GeneralInformation = () => {
             }}
           >
             <li style={{ marginBottom: '10px' }}>
-              <strong>Ceremony:</strong> Morning at St Hilda's Roman Catholic Church, Tottington, UK
+              <strong>Ceremony:</strong> 12:00 PM at St Hilda's Roman Catholic Church, Tottington, UK (Service Starts Prompt)
             </li>
             <li style={{ marginBottom: '10px' }}>
               <strong>Reception:</strong> 1:30 PM at Astley Bank Hotel, Darwen, UK
@@ -83,7 +79,7 @@ const GeneralInformation = () => {
               <strong>Evening Celebration:</strong> 6:00 PM with live music and dancing at Astley Bank Hotel, Darwen, UK
             </li>
           </ul>
-          For more information, see <a href="#/schedule" style={{ color: '#FFD700' }}>Schedule</a>.
+          For more information, see <a href="#/schedule" style={{ color: '#5294D3' }}>Schedule</a>.
         </div>
 
         {/* Dress Code Section */}
@@ -108,7 +104,7 @@ const GeneralInformation = () => {
             Dress Code
           </h2>
           <p style={{ fontSize: '18px', color: '#2F4F4F', marginBottom: '15px' }}>
-          TBC</p>
+          Wear whatever feels right for a joyful occasion — smart and relaxed is absolutely fine.</p>
         </div>
 
         {/* Kids Section */}
@@ -158,7 +154,9 @@ const GeneralInformation = () => {
             Transport and Parking
           </h2>
           <p style={{ fontSize: '18px', color: '#2F4F4F', marginBottom: '15px' }}>
-          TBC</p>
+          There is on-street parking available near the church, but it tends to fill up quickly, so we recommend arriving early to secure a spot.<br/>
+          
+          Astley Bank has parking available.</p>
         </div>
 
         {/* Gifts Section */}
@@ -180,7 +178,7 @@ const GeneralInformation = () => {
       color: '#2F4F4F',
     }}
   >
-    Your Presence Is Our Present
+    Gifts - Your Presence Is Our Present
   </h2>
   <p style={{ fontSize: '18px', color: '#2F4F4F', marginBottom: '15px' }}>
     We feel so fortunate to have you in our lives, and your presence at our celebration is the greatest gift we could ask for.  

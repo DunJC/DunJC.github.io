@@ -35,7 +35,7 @@ const Main = () => {
             textDecoration: 'none',
             backgroundColor: '#fff8e1', // Faint gold background
             color: 'black',
-            border: '2px solid #d4af37', // Gold border
+            border: '2px solid #5294D3', // Gold border
             fontSize: '20px',
             fontFamily: `'Playfair Display', serif`,
             borderRadius: '10px',
@@ -57,7 +57,7 @@ const Main = () => {
     width: '100%', // Set width to 100% to adapt to screen size
     maxWidth: '500px', // Limit the max width on larger screens
     padding: '20px',
-    border: '2px solid #D4AF37', // Gold border
+    border: '2px solid #5294D3', // Gold border
     borderRadius: '10px',
     boxShadow: '0 4px 15px rgba(0, 0, 0, 0.2)',
     marginLeft: 'auto',
@@ -70,7 +70,7 @@ const Main = () => {
       fontSize: '50px',
       fontFamily: `'Great Vibes', cursive`,
       margin: '0',
-      color: '#D4AF37', // Gold color
+      color: '#5294D3', // Gold color
     }}
   >
     July 25th, 2025
@@ -80,7 +80,7 @@ const Main = () => {
       fontSize: '30px',
       fontFamily: `'Great Vibes', cursive`,
       margin: '0',
-      color: '#D4AF37', // Gold color
+      color: '#5294D3', // Gold color
       fontWeight: 'bold',
     }}
   >
@@ -102,7 +102,7 @@ const Main = () => {
       fontSize: '30px',
       fontFamily: `'Great Vibes', cursive`,
       margin: '0',
-      color: '#D4AF37', // Gold color
+      color: '#5294D3', // Gold color
       fontWeight: 'bold',
     }}
   >

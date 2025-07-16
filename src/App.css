@@ -44,15 +44,17 @@
   align-items: center;
   background-color: #ededed; /* Set the background color to a light color */
   color: #000000; /* Set the text color to black */
-  padding: 10px;
+  padding: 10px 10px 5px 10px;
   flex-wrap: wrap; /* Ensure the navbar content wraps on smaller screens */
+  border-bottom: 1px solid #6a6d74; /* Add a solid border at the bottom */
 }
+
 
 .navbar-logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #d4af37;
+  color: #5294D3;
   font-family: 'Great Vibes', cursive;
   font-weight: normal;
   font-size: 24px;
@@ -104,7 +106,7 @@
   top: 50%;
   right: -15px;
   transform: translateY(-50%);
-  color: #d4af37;
+  color: #5294D3;
   font-size: 20px;
 }
 
@@ -113,7 +115,7 @@
   padding: 8px 16px;
   background-color: #fff8e1;
   color: black;
-  border: 2px solid #d4af37;
+  border: 2px solid #5294D3;
   border-radius: 10px;
   cursor: pointer;
   font-family: 'Playfair Display', serif;
@@ -134,7 +136,7 @@
   padding: 10px;
   font-size: 18px;
   font-weight: bold;
-  border-bottom: 2px solid #d4af37;
+  border-bottom: 2px solid #5294D3;
 }
 
 /* Mobile and Tablet Adjustments */

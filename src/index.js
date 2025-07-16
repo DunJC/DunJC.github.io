@@ -12,6 +12,8 @@ import ShareYourIntent from "./pages/ShareYourIntent";
 import Schedule from "./pages/Schedule";
 import Info from "./pages/Information";
 import Contact from "./pages/Contact";
+import Menu from "./pages/Menu";
+import WeddingDayInfo from "./pages/theday";
 
 
 
@@ -27,6 +29,9 @@ export default function App() {
         <Route path="info" element={<Info/>} />
         <Route path="contact" element={<Contact/>} />
         <Route path="schedule" element={<Schedule/>} />
+        <Route path="menu" element={<Menu/>} />
+        <Route path="theday" element={<WeddingDayInfo/>} />
+        
       
       </Routes>
     </HashRouter>

@@ -10,11 +10,7 @@ const Contact = () => {
       <AnnouncementBanner />
       <NavBar />
       <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-        <img
-          src={bannerImage}
-          alt="Banner"
-          style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
-        />
+
       </div>
 
       {/* Main Content Section */}
@@ -33,7 +29,7 @@ const Contact = () => {
             fontFamily: `'Playfair Display', serif`,
             fontSize: '36px',
             margin: '10px 0',
-            color: '#D4AF37', // Gold heading
+            color: '#5294D3', // Gold heading
           }}
         >
           Contact Us
@@ -149,7 +145,7 @@ const Contact = () => {
                 padding: '10px 20px',
                 fontSize: '18px',
                 color: '#ffffff',
-                background: '#D4AF37', // Gold button
+                background: '#5294D3', // Gold button
                 border: 'none',
                 borderRadius: '5px',
                 cursor: 'pointer',
