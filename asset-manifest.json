@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e27477ed.css",
+    "main.css": "/static/css/main.e959c638.css",
     "main.js": "/static/js/main.f89de396.js",
     "static/js/453.8e17da98.chunk.js": "/static/js/453.8e17da98.chunk.js",
     "static/media/canapesImage.png": "/static/media/canapesImage.ddadf22395058b740361.png",
@@ -12,12 +12,12 @@
     "static/media/bannerImage_sml.png": "/static/media/bannerImage_sml.43dbf25c6b2e8eed9e0b.png",
     "static/media/JCLogoMain.png": "/static/media/JCLogoMain.605a83159b6986a6224a.png",
     "index.html": "/index.html",
-    "main.e27477ed.css.map": "/static/css/main.e27477ed.css.map",
+    "main.e959c638.css.map": "/static/css/main.e959c638.css.map",
     "main.f89de396.js.map": "/static/js/main.f89de396.js.map",
     "453.8e17da98.chunk.js.map": "/static/js/453.8e17da98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e27477ed.css",
+    "static/css/main.e959c638.css",
     "static/js/main.f89de396.js"
   ]
 }
